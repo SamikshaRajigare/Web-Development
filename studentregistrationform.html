@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Engineering Student Registration</title>
+    <link rel="stylesheet" href="studentregistrationform.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Engineering Student Registration Form</h2>
+
+    <form>
+
+        <div class="form-group">
+            <label>Student ID:</label>
+            <input type="text" name="studentid" placeholder="Enter Student ID" required>
+        </div>
+
+        <div class="form-group">
+            <label>Full Name:</label>
+            <input type="text" name="fullname" placeholder="Enter full name" required>
+        </div>
+
+        <div class="form-group">
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required>
+        </div>
+
+        <div class="form-group">
+            <label>Gender:</label>
+            <div class="radio-group">
+                <label><input type="radio" name="gender"> Male</label>
+                <label><input type="radio" name="gender"> Female</label>
+                <label><input type="radio" name="gender"> Other</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Year:</label>
+            <select name="year">
+                <option>--Select Year--</option>
+                <option>First Year</option>
+                <option>Second Year</option>
+                <option>Third Year</option>
+                <option>Last Year</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Department:</label>
+            <select name="department">
+                <option>--Select Department--</option>
+                <option>Computer Engineering</option>
+                <option>Mechanical Engineering</option>
+                <option>Civil Engineering</option>
+                <option>Electrical Engineering</option>
+                <option>Electronics Engineering</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Division:</label>
+            <select name="division">
+                <option>--Select Division--</option>
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Interests:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox"> Sports</label>
+                <label><input type="checkbox"> Reading</label>
+                <label><input type="checkbox"> Coding</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Register</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
